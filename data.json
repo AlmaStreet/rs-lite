@@ -1,45 +1,48 @@
 {
   "1": {
     "label": "Fishing",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 20,
     "misc_time_constant": 30,
     "elven_time_random": 35,
     "elven_time_constant": 60,
     "click_time_random": 18,
-    "click_time_constant": 25
+    "click_time_constant": 25,
+    "special": null
   },
   "2": {
     "label": "Click only",
-    "misc_state": "False",
-    "elven_state": "False",
-    "click_state": "True",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": true,
     "misc_time_random": 20,
     "misc_time_constant": 30,
     "elven_time_random": 20,
     "elven_time_constant": 30,
     "click_time_random": 28,
-    "click_time_constant": 28
+    "click_time_constant": 28,
+    "special": null
   },
   "3": {
     "label": "Click only - fast",
-    "misc_state": "False",
-    "elven_state": "False",
-    "click_state": "True",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": true,
     "misc_time_random": 20,
     "misc_time_constant": 30,
     "elven_time_random": 20,
     "elven_time_constant": 30,
-    "click_time_random": 18,
-    "click_time_constant": 20
+    "click_time_random": 24,
+    "click_time_constant": 8,
+    "special": null
   },
   "4": {
     "label": "Click only - very fast (Agility)",
-    "misc_state": "False",
-    "elven_state": "False",
-    "click_state": "True",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": true,
     "misc_time_random": 20,
     "misc_time_constant": 30,
     "elven_time_random": 20,
@@ -49,154 +52,179 @@
     "special": "agility"
   },
   "5": {
+    "label": "Click only - very slow",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": true,
+    "misc_time_random": 20,
+    "misc_time_constant": 30,
+    "elven_time_random": 20,
+    "elven_time_constant": 30,
+    "click_time_random": 150,
+    "click_time_constant": 50,
+    "special": null
+  },
+  "6": {
     "label": "Glacor -> Thieving Aura",
-    "misc_state": "False",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": false,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 30,
     "misc_time_constant": 80,
     "elven_time_random": 50,
     "elven_time_constant": 240,
     "click_time_random": 50,
-    "click_time_constant": 100
+    "click_time_constant": 100,
+    "special": null
   },
-  "6": {
+  "7": {
     "label": "PSD AFK",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 8,
     "misc_time_constant": 353,
     "elven_time_random": 30,
     "elven_time_constant": 200,
     "click_time_random": 23,
-    "click_time_constant": 35
+    "click_time_constant": 35,
+    "special": null
   },
-  "7": {
+  "8": {
     "label": "Rathis/Corp AFK (dino)",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 10,
     "misc_time_constant": 347,
     "elven_time_random": 30,
     "elven_time_constant": 25,
     "click_time_random": 21,
-    "click_time_constant": 23
+    "click_time_constant": 23,
+    "special": null
   },
-  "8": {
+  "9": {
     "label": "Orikalka AFK",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 20,
     "misc_time_constant": 690,
     "elven_time_random": 8,
     "elven_time_constant": 357,
     "click_time_random": 23,
-    "click_time_constant": 30
+    "click_time_constant": 30,
+    "special": null
   },
-  "9": {
+  "10": {
     "label": "KBD AFK (psd afk ss + sw)",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 18,
     "misc_time_constant": 700,
     "elven_time_random": 30,
     "elven_time_constant": 25,
     "click_time_random": 23,
-    "click_time_constant": 30
+    "click_time_constant": 30,
+    "special": null
   },
-  "10": {
+  "11": {
     "label": "Mining with porters",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 60,
     "misc_time_constant": 90,
     "elven_time_random": 30,
     "elven_time_constant": 25,
     "click_time_random": 28,
-    "click_time_constant": 28
+    "click_time_constant": 28,
+    "special": null
   },
-  "11": {
+  "12": {
     "label": "Kalgs AFK",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 30,
     "misc_time_constant": 80,
     "elven_time_random": 30,
     "elven_time_constant": 25,
     "click_time_random": 20,
-    "click_time_constant": 690
+    "click_time_constant": 690,
+    "special": null
   },
-  "12": {
+  "13": {
     "label": "Zuk AFK",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 30,
     "misc_time_constant": 25,
     "elven_time_random": 20,
     "elven_time_constant": 690,
     "click_time_random": 12,
-    "click_time_constant": 12
+    "click_time_constant": 12,
+    "special": null
   },
-  "13": {
+  "14": {
     "label": "Glacor Oldak AFK",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 15,
     "misc_time_constant": 60,
     "elven_time_random": 20,
     "elven_time_constant": 250,
     "click_time_random": 60,
-    "click_time_constant": 600
+    "click_time_constant": 600,
+    "special": null
   },
-  "14": {
+  "15": {
     "label": "Rune Dragon AFK",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 8,
     "misc_time_constant": 357,
     "elven_time_random": 8,
     "elven_time_constant": 348,
     "click_time_random": 23,
-    "click_time_constant": 30
+    "click_time_constant": 30,
+    "special": null
   },
-  "15": {
+  "16": {
     "label": "Adamant Dragon AFK",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 20,
     "misc_time_constant": 690,
     "elven_time_random": 20,
     "elven_time_constant": 690,
     "click_time_random": 23,
-    "click_time_constant": 30
+    "click_time_constant": 30,
+    "special": null
   },
-  "16": {
+  "17": {
     "label": "Vyres (Penance Powder)",
-    "misc_state": "True",
-    "elven_state": "True",
-    "click_state": "True",
+    "misc_state": true,
+    "elven_state": true,
+    "click_state": true,
     "misc_time_random": 70,
     "misc_time_constant": 60,
     "elven_time_random": 200,
     "elven_time_constant": 500,
     "click_time_random": 35,
-    "click_time_constant": 35
+    "click_time_constant": 35,
+    "special": null
   },
-  "17": {
+  "18": {
     "label": "** incense sticks - fletch/ash",
-    "misc_state": "False",
-    "elven_state": "False",
-    "click_state": "True",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": true,
     "misc_time_random": 20,
     "misc_time_constant": 690,
     "elven_time_random": 20,
@@ -205,11 +233,11 @@
     "click_time_constant": 41,
     "special": 1
   },
-  "18": {
+  "19": {
     "label": "** incense sticks - add herbs",
-    "misc_state": "False",
-    "elven_state": "False",
-    "click_state": "True",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": true,
     "misc_time_random": 20,
     "misc_time_constant": 690,
     "elven_time_random": 20,
@@ -218,11 +246,11 @@
     "click_time_constant": 100,
     "special": 1
   },
-  "19": {
+  "20": {
     "label": "** make potions",
-    "misc_state": "False",
-    "elven_state": "False",
-    "click_state": "True",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": true,
     "misc_time_random": 20,
     "misc_time_constant": 690,
     "elven_time_random": 20,
@@ -231,11 +259,11 @@
     "click_time_constant": 19,
     "special": 1
   },
-  "20": {
+  "21": {
     "label": "** make armor spikes",
-    "misc_state": "False",
-    "elven_state": "False",
-    "click_state": "True",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": true,
     "misc_time_random": 60,
     "misc_time_constant": 600,
     "elven_time_random": 60,
@@ -244,11 +272,11 @@
     "click_time_constant": 26,
     "special": 2
   },
-  "21": {
+  "22": {
     "label": "** smelt bars",
-    "misc_state": "False",
-    "elven_state": "False",
-    "click_state": "True",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": true,
     "misc_time_random": 60,
     "misc_time_constant": 600,
     "elven_time_random": 60,
@@ -257,11 +285,11 @@
     "click_time_constant": 78,
     "special": 2
   },
-  "22": {
+  "23": {
     "label": "** cannonballs/proteans shakes",
-    "misc_state": "False",
-    "elven_state": "False",
-    "click_state": "True",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": true,
     "misc_time_random": 60,
     "misc_time_constant": 600,
     "elven_time_random": 60,
@@ -270,11 +298,11 @@
     "click_time_constant": 140,
     "special": 2
   },
-  "23": {
+  "24": {
     "label": "** Yeti Town Bonfire",
-    "misc_state": "False",
-    "elven_state": "False",
-    "click_state": "True",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": true,
     "misc_time_random": 60,
     "misc_time_constant": 600,
     "elven_time_random": 60,
@@ -283,11 +311,11 @@
     "click_time_constant": 110,
     "special": 3
   },
-  "24": {
+  "25": {
     "label": "** D/A",
-    "misc_state": "False",
-    "elven_state": "True",
-    "click_state": "False",
+    "misc_state": false,
+    "elven_state": true,
+    "click_state": false,
     "misc_time_random": 60,
     "misc_time_constant": 600,
     "elven_time_random": 60,
@@ -296,11 +324,11 @@
     "click_time_constant": 110,
     "special": 4
   },
-  "25": {
+  "26": {
     "label": "Off",
-    "misc_state": "False",
-    "elven_state": "False",
-    "click_state": "False",
+    "misc_state": false,
+    "elven_state": false,
+    "click_state": false,
     "misc_time_random": 1,
     "misc_time_constant": 1,
     "elven_time_random": 1,
