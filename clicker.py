@@ -6,8 +6,9 @@ from time import sleep, time
 
 
 PATH = "/dev/cu."
-PORT = "usbmodem14401"
-serial_com = serial.Serial(PATH + PORT, 9600)
+PORT_TYPE = "usbmodem"
+PORT = "2301"
+serial_com = serial.Serial(PATH + PORT_TYPE + PORT, 9600)
 serial_com.timeout = 1
 
 BYTE_C = b"c"  # misc
