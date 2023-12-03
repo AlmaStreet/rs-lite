@@ -13,17 +13,15 @@ def initialize_ui():
 
 def set_values():
     selection = str(var.get())
-    print(f"Selection: {selection}")  # Debugging print
-    update_label(selection)
     if selection in profile_data:
         click.update_data(profile_data[selection])
         print_profile(selection)
+    update_label(selection)
 
 
 def update_label(selection):
     text = f"You selected the option {selection}"
     text_state = f"\nmisc: {click.misc_state}\nelven: {click.elven_state}\nclick: {click.click_state}\n== special: {click.special} =="
-    print(f"Updating label: {text + text_state}")  # Debugging print
     label.config(text=text + text_state)
 
 

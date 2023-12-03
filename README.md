@@ -26,3 +26,13 @@ Remove all dependencies
 ```
 pip freeze | xargs pip uninstall -y
 ```
+
+### Troubleshooting - TKinter
+TKinter labels appears to be invisible for Python 3.9
+Updating to Python 3.10 or newer will no longer include TKinter, so we need to seperately install a suitable TKinter.
+
+Example for Python 3.11, install and verify TKinter
+```
+brew install python-tk@3.11
+python3 -m tkinter -c "print('Tkinter is working')"
+```
